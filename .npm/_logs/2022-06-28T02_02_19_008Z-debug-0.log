@@ -1,0 +1,69 @@
+0 verbose cli [
+0 verbose cli   '/usr/bin/node',
+0 verbose cli   '/usr/lib/node_modules/npm/bin/npm-cli.js',
+0 verbose cli   'exec',
+0 verbose cli   '--',
+0 verbose cli   'create-react-aoo',
+0 verbose cli   'amplifyapp'
+0 verbose cli ]
+1 info using npm@8.5.5
+2 info using node@v16.15.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:/usr/lib/node_modules/npm/npmrc Completed in 10ms
+6 timing config:load:builtin Completed in 10ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:project Completed in 6ms
+10 timing config:load:file:/home/cloudshell-user/.npmrc Completed in 0ms
+11 timing config:load:user Completed in 0ms
+12 timing config:load:file:/usr/etc/npmrc Completed in 0ms
+13 timing config:load:global Completed in 0ms
+14 timing config:load:validate Completed in 0ms
+15 timing config:load:credentials Completed in 2ms
+16 timing config:load:setEnvs Completed in 1ms
+17 timing config:load Completed in 25ms
+18 timing npm:load:configload Completed in 25ms
+19 timing npm:load:setTitle Completed in 0ms
+20 timing config:load:flatten Completed in 2ms
+21 timing npm:load:display Completed in 4ms
+22 verbose logfile /home/cloudshell-user/.npm/_logs/2022-06-28T02_02_19_008Z-debug-0.log
+23 timing npm:load:logFile Completed in 4ms
+24 timing npm:load:timers Completed in 0ms
+25 timing npm:load:configScope Completed in 0ms
+26 timing npm:load Completed in 34ms
+27 http fetch GET 200 https://registry.npmjs.org/npm 181ms (cache miss)
+28 http fetch GET 404 https://registry.npmjs.org/create-react-aoo 188ms (cache skip)
+29 http fetch GET 404 https://registry.npmjs.org/create-react-aoo 157ms (cache skip)
+30 timing command:exec Completed in 376ms
+31 notice
+31 notice New [33mminor[39m version of npm available! [31m8.5.5[39m -> [32m8.13.1[39m
+31 notice Changelog: [36mhttps://github.com/npm/cli/releases/tag/v8.13.1[39m
+31 notice Run [32mnpm install -g npm@8.13.1[39m to update!
+31 notice
+32 verbose stack HttpErrorGeneral: 404 Not Found - GET https://registry.npmjs.org/create-react-aoo - Not found
+32 verbose stack     at /usr/lib/node_modules/npm/node_modules/npm-registry-fetch/lib/check-response.js:104:15
+32 verbose stack     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+32 verbose stack     at async /usr/lib/node_modules/npm/node_modules/libnpmexec/lib/index.js:107:12
+32 verbose stack     at async Promise.all (index 0)
+32 verbose stack     at async exec (/usr/lib/node_modules/npm/node_modules/libnpmexec/lib/index.js:95:17)
+32 verbose stack     at async module.exports (/usr/lib/node_modules/npm/lib/cli.js:66:5)
+33 verbose statusCode 404
+34 verbose pkgid create-react-aoo@latest
+35 verbose cwd /home/cloudshell-user
+36 verbose Linux 4.14.276-211.499.amzn2.x86_64
+37 verbose argv "/usr/bin/node" "/usr/lib/node_modules/npm/bin/npm-cli.js" "exec" "--" "create-react-aoo" "amplifyapp"
+38 verbose node v16.15.0
+39 verbose npm  v8.5.5
+40 error code E404
+41 error 404 Not Found - GET https://registry.npmjs.org/create-react-aoo - Not found
+42 error 404
+43 error 404  'create-react-aoo@latest' is not in this registry.
+44 error 404
+44 error 404 Note that you can also install from a
+45 error 404 tarball, folder, http url, or git url.
+46 verbose exit 1
+47 timing npm Completed in 801ms
+48 verbose code 1
+49 error A complete log of this run can be found in:
+49 error     /home/cloudshell-user/.npm/_logs/2022-06-28T02_02_19_008Z-debug-0.log
